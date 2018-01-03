@@ -1,0 +1,74 @@
+baseURL = "https://axiong.me/"
+languageCode = "en-us"
+title = "axiong Personal Intro"
+theme = "hugo-smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+canonifyurls = true
+
+publishDir = "docs"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "GTM-T3M4QJ2"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Nick Fan"
+  description = "Axiong's Intro Page."
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    alt = "axiong.me"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "axiong.me"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Somewhere i belong."
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Code"
+    icon = "fa-github"
+    link = "https://github.com/nickfan"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
+    link = "https://nickfan.github.io"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/nickfan"
