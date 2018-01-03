@@ -3,7 +3,8 @@ Thumbs.db
 *.log
 node_modules/
 public/
-docs/
+docs/*
+
 .deploy*/
 
 _resources/
