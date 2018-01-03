@@ -5,7 +5,7 @@ theme = "hugo-smpl-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 canonifyurls = true
 
-publishDir = "docs"
+# publishDir = "docs"
 
 # Enter your tracking code to enable Google analytics
 googleAnalytics = "GTM-T3M4QJ2"
