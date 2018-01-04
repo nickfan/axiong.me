@@ -23,7 +23,7 @@ googleAnalytics = "GTM-T3M4QJ2"
   # To provide more meta data for search engines feel free to add a few information.
   # This lines will be inserted as meta tags.
   name = "Nick Fan"
-  description = "Axiong's Intro Page."
+  description = "Axiong's Intro Site."
 
   # Background
   [params.background]
@@ -44,7 +44,7 @@ googleAnalytics = "GTM-T3M4QJ2"
   # Header section
   [params.header]
     enable = true
-    title = "axiong.me"
+    title = "Code 4 Fun."
 
   # Quote section
   [params.quote]
@@ -59,11 +59,6 @@ googleAnalytics = "GTM-T3M4QJ2"
     enable = true
 
   [[params.social]]
-    title = "Code"
-    icon = "fa-github"
-    link = "https://github.com/nickfan"
-
-  [[params.social]]
     title = "Blog"
     icon = "fa-comment"
     link = "https://nickfan.github.io"
@@ -72,3 +67,8 @@ googleAnalytics = "GTM-T3M4QJ2"
     title = "Twitter"
     icon = "fa-twitter"
     link = "https://twitter.com/nickfan"
+
+  [[params.social]]
+    title = "Code"
+    icon = "fa-github"
+    link = "https://github.com/nickfan"
