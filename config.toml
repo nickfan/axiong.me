@@ -64,11 +64,16 @@ googleAnalytics = "GTM-T3M4QJ2"
     link = "https://nickfan.github.io"
 
   [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "https://twitter.com/nickfan"
-
-  [[params.social]]
     title = "Code"
     icon = "fa-github"
     link = "https://github.com/nickfan"
+
+  [[params.social]]
+    title = "Donation"
+    icon = "fa-thumbs-up"
+    link = "https://nickfan.github.io/donation/"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/nickfan"
