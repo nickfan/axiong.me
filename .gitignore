@@ -8,3 +8,4 @@ docs/*
 .deploy*/
 
 _resources/
+.vscode/
